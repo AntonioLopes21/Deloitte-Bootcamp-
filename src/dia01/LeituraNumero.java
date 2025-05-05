@@ -1,4 +1,5 @@
-import javax.crypto.spec.PSource;
+package dia01;
+
 import java.util.Scanner;
 
 public class LeituraNumero {

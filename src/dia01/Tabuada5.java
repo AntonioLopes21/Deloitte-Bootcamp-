@@ -1,3 +1,5 @@
+package dia01;
+
 public class Tabuada5 {
     public static void main(String[] args) {
         for (int i = 0; i < 11; i++) {

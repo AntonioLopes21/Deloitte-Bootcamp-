@@ -1,4 +1,4 @@
-package dia01;
+package dia01.desafiosIniciais;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package dia01;
+package dia01.desafiosIniciais;
 
 public class Tabuada5 {
     public static void main(String[] args) {

@@ -5,12 +5,12 @@ public class Main {
         AcaoPessoa comparacao = new AcaoPessoa();
 
         Pessoa pessoa1 = new Pessoa("Pedro", 30);
-        Pessoa pessoa2 = new Pessoa("Luis", 16);
+        Pessoa pessoa2 = new Pessoa("Luis", 30);
 
         comparacao.compararIdade(pessoa1, pessoa2);
 
-        comparacao.verificarMaioridade(pessoa1);
-        comparacao.verificarMaioridade(pessoa2);
+        pessoa1.verificarMaioridade();
+        pessoa2.verificarMaioridade();
 
     }
 }

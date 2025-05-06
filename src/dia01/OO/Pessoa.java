@@ -29,7 +29,14 @@ public class Pessoa {
         return idade;
     }
 
+    public void verificarMaioridade() {
+        if(this.getIdade() >= 18) {
+            System.out.println(this.getNome() + " é maior de idade.");
+        } else {
+            System.out.println(this.getNome() + " é menor de idade.");
 
+        }
+    }
 
 
 }

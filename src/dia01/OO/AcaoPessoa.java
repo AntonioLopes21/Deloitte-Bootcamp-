@@ -12,12 +12,5 @@ public class AcaoPessoa {
         }
     }
 
-    public void verificarMaioridade(Pessoa pessoa) {
-        if(pessoa.getIdade() >= 18) {
-            System.out.println(pessoa.getNome() + " é maior de idade.");
-        } else {
-            System.out.println(pessoa.getNome() + " é menor de idade.");
 
-        }
-    }
 }

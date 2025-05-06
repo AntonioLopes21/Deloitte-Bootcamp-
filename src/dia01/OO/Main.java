@@ -12,6 +12,5 @@ public class Main {
         comparacao.verificarMaioridade(pessoa1);
         comparacao.verificarMaioridade(pessoa2);
 
-
     }
 }

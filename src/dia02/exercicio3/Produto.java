@@ -37,16 +37,12 @@ public class Produto {
 
     public void aplicarDesconto(Produto produto, double desconto) {
         double valorProduto = produto.getPreco();
-//        System.out.println("Valor do produto: " + valorProduto);
-        desconto = desconto / 100;
-//        System.out.println("Desconto do produto: " + desconto);
-
-
+        desconto /= 100;
         double valorDescontado = valorProduto *  desconto;
         System.out.println("Valor descontado: " + valorDescontado);
 
 
-        valorProduto = valorProduto - valorDescontado;
+        valorProduto -= valorDescontado;
         System.out.printf("Produto aplicado com desconto: %.2f ", valorProduto);
     }
 }

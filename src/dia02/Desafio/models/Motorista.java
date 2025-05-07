@@ -68,4 +68,11 @@ public class Motorista {
     public void dirigir(Veiculo veiculo) {
         System.out.println(this.nome + " está dirigindo o " + veiculo);
     }
+
+    @Override
+    public String toString() {
+        return "\nNome do motorista:" + this.nome + "\n" +
+                "Cnh:" + this.cnh;
+
+    }
 }

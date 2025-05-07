@@ -56,5 +56,7 @@ public class Main {
         for (int i = 0; i <= 15; i++) {
             caminhao.acelerar();
         }
+
+        frota.listarFrota();
     }
 }

@@ -16,7 +16,7 @@ public class Frota {
     public void adicionarMotoristaAFrota(Motorista motorista) {
         motoristas.add(motorista);
 
-        System.out.println("Motorista adicionado a frota:" + motorista.getNome());
+        System.out.println("Motorista adicionado a frota:" + motorista);
     }
 
     public void listarFrota() {

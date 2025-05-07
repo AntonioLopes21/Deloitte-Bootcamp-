@@ -71,8 +71,9 @@ public class Motorista {
 
     @Override
     public String toString() {
-        return "\nNome do motorista:" + this.nome + "\n" +
-                "Cnh:" + this.cnh;
+        return "\nNome do motorista:" + this.nome +
+                ", Cnh:" + this.cnh +
+                ", Veículos registrados: " + this.veiculosPossuidos ;
 
     }
 }

@@ -15,4 +15,9 @@ public class Caminhao extends Veiculo{
         super.exibirInformacoes();
         System.out.println("Capacidade Carga: " + this.capacidadeCarga);
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nCapacidade de carga:" + capacidadeCarga + " Toneladas";
+    }
 }

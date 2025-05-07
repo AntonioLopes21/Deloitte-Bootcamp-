@@ -43,8 +43,11 @@ public class Motorista {
         String nomeMotorista = this.getNome();
         this.veiculoAtual = veiculo;
 
-        veiculosPossuidos.add(veiculo);
+        if(veiculosPossuidos.isEmpty()) {
+            System.out.println("None");
+        }
 
+        veiculosPossuidos.add(veiculo);
         System.out.println(nomeMotorista + " possui o(s) veículo(s):" + veiculosPossuidos);
     }
 

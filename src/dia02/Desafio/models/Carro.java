@@ -23,6 +23,6 @@ public class Carro extends Veiculo{
 
     @Override
     public String toString() {
-        return super.toString() + "Carro{" + "numeroPortas=" + numeroPortas + '}';
+        return super.toString() + "\nCarro - " + "numeroPortas = " + numeroPortas;
     }
 }
